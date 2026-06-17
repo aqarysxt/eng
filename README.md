@@ -2,6 +2,14 @@
 
 > Сөздерді тақырып бойынша енгізіп, ойын режимдері арқылы жатта.
 
+## 🚀 Бір клик деплой
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Faqarysxt%2Feng&env=NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY,SUPABASE_SERVICE_ROLE_KEY&envDescription=Supabase%20URL%20%D0%BC%D0%B5%D0%BD%20%D0%BA%D1%96%D0%BB%D1%82%D1%82%D0%B5%D1%80&project-name=wordroom&repository-name=wordroom)
+
+Жоғарыдағы түймені басып, 3 env айнымалысын (Supabase URL, anon key, service_role key)
+енгізсеңіз — Vercel автоматты деплой жасайды. Алдымен `supabase/schema.sql`-ді
+Supabase жобаңызда орындап алыңыз.
+
 WordRoom — тіркелусіз (email/құпиясөзсіз) жұмыс істейтін сөздік үйрену платформасы.
 Қолданушы тек аты-жөнін енгізеді, кабинет ашады (немесе код арқылы кіреді), тақырып
 құрады, сөздер қосады және «Дайын» дегеннен кейін тақырып бірнеше ойын режимі бар
